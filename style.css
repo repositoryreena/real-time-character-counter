@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    text-align: center;
+    background-color: lightpink;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.textarea {
+    width: 400px;
+    height: 100px;
+    border: 2px solid gray;
+}
+
+.changes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue{
+    color: blue;
+}
+
+.red{
+    color: red;
+}
